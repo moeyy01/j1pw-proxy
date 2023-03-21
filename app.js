@@ -7,7 +7,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 // 代理中间件选项
 const options = {
-  target: 'https://owo.ee', // 目标地址
+  target: 'https://mastodon.84274001.xyz', // 目标地址
 
   // 把目标主机获取到的 Host 替换成目标地址
   // 当为 true 时，目标主机获取到的 Host 端口为 3001，反之为3000
@@ -34,7 +34,7 @@ app.use('/', exampleProxy);
 // ---------------
 // 符合自己需求的写法
 const optionProject = {
-  target: 'https://owo.ee',
+  target: 'https://mastodon.84274001.xyz',
   changeOrigin: false,
   ws: true,
   pathRewrite: {
