@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/*"
-  to = "https://mastodon.84274001.xyz/:splat"
+  to = "https://url.moeyy.workers.dev/:splat"
   status = 200
   force = false
