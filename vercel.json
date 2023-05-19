@@ -1,6 +1,7 @@
 {
     "version": 2,
     "routes": [
-      {"src": "/(.*)","dest": "https://url.moeyy.workers.dev/$1"}
-    ]
+      {"src": "/(.*)","dest": "https://url.moeyy.workers.dev/$1"},
+      {"src": "/","status": 302,"headers": { "Location":"https://moeyy.cn/url/" }}
+     ]
 }
