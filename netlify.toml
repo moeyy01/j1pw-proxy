@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "https://url.moeyy.workers.dev/:splat"
-  status = 200
-  force = false
